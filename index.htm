@@ -1,0 +1,2050 @@
+<!DOCTYPE html>
+<html lang="ru"><head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- 
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2025 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at https://typo3.org/
+-->
+
+
+
+<title>Альт Контроллер - ОС для ПЛК на ядре RT | BaseALT</title>
+<meta name="generator" content="TYPO3 CMS">
+<meta name="description" content="Российская ОС для создания ИТ-инфраструктуры организации с поддержкой групповых политик. Подходит для перехода с иностранных серверных решений. Входит в Реестр Минцифры. BaseALT, Базальт СПО">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Альт Сервер - серверная операционная система | BaseALT">
+<meta property="og:description" content="Российская ОС для создания ИТ-инфраструктуры организации с поддержкой групповых политик. Подходит для перехода с иностранных серверных решений. Входит в Реестр Минцифры. BaseALT, Базальт СПО">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="stylesheet" type="text/css" href="files/jquery.fancybox.min.css" media="all">
+<link rel="stylesheet" type="text/css" href="files/owl.carousel.min.css" media="all">
+<link rel="stylesheet" type="text/css" href="files/mmenu.css" media="all">
+<link rel="stylesheet" type="text/css" href="files/jquery.mCustomScrollbar.min.css" media="all">
+<link rel="stylesheet" type="text/css" href="files/products.css" media="all">
+
+
+
+
+
+
+
+<meta name="yandex-verification" content="32df47f30f7545a8">
+<meta name="yandex-verification" content="9aa8158b544f7485">  
+  
+<!-- Yandex.Metrika counter -->
+<script async="" src="files/tag.js"></script><script type="text/javascript">
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(40493970, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<!-- /Yandex.Metrika counter -->
+
+<meta name="google-site-verification" content="OmLv5zOl6sqp0wnFOXLsGQclnDdFDL6PzFreQLy2h9U">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+<link href="files/css2.css" rel="stylesheet">
+
+
+<meta property="og:url" content="https://www.basealt.ru">
+<meta property="og:description" content="Российский разработчик операционных систем «Альт»">
+<script type="application/ld+json">
+{
+  "@context": "http://www.schema.org",
+  "@type": "ProfessionalService",
+  "name": "Российский разработчик операционных систем «Альт»",
+  "url": "https://www.basealt.ru/",
+  "logo": "https://www.basealt.ru/fileadmin/templates/images/logo.png",
+  "image": "https://www.basealt.ru/fileadmin/templates/images/logo.png",
+  "description": "Российский разработчик\nоперационных систем «Альт»",
+"telephone": "+7 (495) 123-47-99",
+"email": "org@basealt.ru",
+"priceRange": "$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "ул. Бутырская, д. 75",
+    "addressLocality": "Москва",
+    "postalCode": "127015",
+    "addressCountry": "Россия"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "55.803261",
+    "longitude": "37.582466"
+  },
+  "openingHours": "Mo, Tu, We, Th, Fr 10:00-18:00",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+7 (495) 123-47-99",
+    "contactType": "org@basealt.ru"
+  }
+}
+ </script>
+<meta name="twitter:card" content="summary_large_image">
+<link rel="shortcut icon" href="https://www.basealt.ru/favicon.ico" type="image/x-icon">
+<link rel="icon" href="https://www.basealt.ru/favicon.ico" type="image/x-icon">
+<link rel="canonical" href="https://www.basealt.ru/alt-server">
+
+
+</head>
+<body id="page-760" class="mm-wrapper mm-wrapper--position-right-front">
+<div class="mm-page mm-slideout" id="mm-22"><div id="header" class="fixed">
+    <div class="container">
+        <div class="row between vcenter">
+            <a class="logo" href="https://www.basealt.ru/">
+                
+
+    
+            
+
+                    
+                        
+
+
+
+                    
+                    
+                    
+
+    <img src="files/icon01.svg" alt="Базальт СПО" width="86" height="72">
+<!-- <img src="/fileadmin/user_upload/logo/86x62_logo_NG.svg"  alt="Базальт СПО"> -->
+<span>Российский разработчик<br>операционных систем «Альт»</span>
+<style>
+        #main_menu > li#li16 .columns2 ul:first-of-type li.title {
+            display:none;
+        }  
+  
+        #li13 .sub ul.menu-real-link li a {
+            font-size: 20px;
+            line-height: 26px;
+            font-weight: 600;
+            margin-bottom: 28px;
+        }
+        #main_menu #li13 .sub ul.menu-real-link {
+         padding-bottom: 0;
+            }
+  #main_menu li#li13 .sub ul li p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  #mm-5 > .mm-listview:first-of-type{
+    margin-bottom: 0;
+  }
+  
+  #footer .top .menus .menu {
+    max-width: unset;
+  }  
+  #footer .top .menus .menu:nth-child(2) {
+    margin-left: -29px;
+  }
+  
+  #main_menu > li .sub .columns2 {
+    column-gap: 60px;
+    margin-bottom: 20px;
+}
+  
+@media screen and (max-width: 768px) {
+  h1.h3 {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34.7px;
+    margin-bottom: 21px;
+  }  
+}  
+  
+@media screen and (max-width: 440px) {
+  #header .logo span {
+    display: block;
+  }
+}  
+@media screen and (max-width: 336px) {
+  #header .logo span {
+    display: none;
+  }
+}  
+  
+</style>
+
+
+                    
+                        
+
+
+
+                    
+                    
+                        
+
+
+
+                    
+                
+
+        
+
+
+            </a>
+            <div class="col">
+                <ul id="main_menu"><li id="li2"><a href="https://www.basealt.ru/company" id="mm2" class="withsub">Компания</a><div class="sub"><div class="columns3"><ul><li><a href="https://www.basealt.ru/company">О компании</a></li><li><a href="https://www.basealt.ru/vacancies">Вакансии</a></li><li><a href="https://www.basealt.ru/contacts">Контакты</a></li></ul><ul><li><a href="https://www.basealt.ru/about/news">Новости</a></li><li><a href="https://www.basealt.ru/about/blog">Блог</a></li><li><a href="https://www.basealt.ru/mediakit">Медиакит</a></li></ul><ul><li><a href="https://www.basealt.ru/projects">Кейсы</a></li><li><a href="https://www.basealt.ru/events">Мероприятия</a></li><li><a href="https://www.basealt.ru/sitemap">Карта сайта</a></li></ul><ul></ul></div></div></li><li class="active" id="li16"><a href="https://www.basealt.ru/products" id="mm16" class="active withsub">Продукты</a><div class="sub"><div class="columns2"><ul><li class="title">Продукты</li><li><a href="https://www.basealt.ru/altsp">Альт СП</a><p>Операционная система со встроенными средствами защиты информации. Сертифицирована ФСТЭК России</p></li><li><a href="https://www.basealt.ru/alt-server">Альт Сервер</a><p>Комплексное серверное решение для ИТ-инфраструктуры</p></li><li><a href="https://www.basealt.ru/alt-domain">Альт Домен</a><p>Программный комплекс для централизованного управления компьютерами и пользователями в сети</p></li><li><a href="https://www.basealt.ru/alt-virtualization">Альт Виртуализация</a><p>Универсальное решение для создания и миграции виртуальной ИТ-инфраструктуры</p></li><li><a href="https://www.basealt.ru/alt-platform">Альт Платформа</a><p>Технологический комплекс для сборки программного обеспечения</p></li><li><a href="https://www.basealt.ru/alt-mobile">ALT Mobile</a><p>Операционная система для мобильных устройств, смартфонов и планшетов</p></li><li><a href="https://www.basealt.ru/container-registry">Реестр контейнеров</a><p>Сервис, где хранятся образы контейнеров</p></li><li><a href="https://www.basealt.ru/products">Все продукты</a></li></ul><ul><li><a href="https://www.basealt.ru/alt-workstation">Альт Рабочая станция</a><p>Операционная система, проверенная временем, для оборудования с любыми процессорами</p></li><li><a href="https://www.basealt.ru/alt-workstation-k">Альт Рабочая станция К</a><p>Операционная система с элегантной средой KDE PLasma, где инновации встречают творчество</p></li><li><a href="https://www.basealt.ru/alt-education">Альт Образование</a><p>Операционная система для тех, кто учится и учит</p></li><li><a href="https://www.basealt.ru/simplylinux">Simply Linux</a><p>Простая операционная система для дома и офиса</p></li></ul><ul><li class="title">Дополнительная информация</li><li><a href="https://www.basealt.ru/updates">Обновления</a></li><li><a href="https://www.basealt.ru/documentation">Документация</a></li><li><a href="https://www.basealt.ru/product-compatibility">Информация о совместимости</a></li><li><a href="https://www.basealt.ru/fileadmin/docs/License_policy.pdf" target="_blank">Лицензионная политика</a></li></ul><ul><li><a href="https://www.basealt.ru/product-feedback">Оставить отзыв о продукте</a></li></ul></div></div></li><li id="li27"><a href="https://www.basealt.ru/repository" id="mm27" class="withsub">Разработчикам</a><div class="sub"><div class="columns2"><ul><li><a href="https://www.basealt.ru/repository">Проект «Сизиф»</a><p>Свободный репозиторий программ и баз данных</p></li><li><a href="https://www.basealt.ru/alt-linux">ALT Linux Team</a><p>Cообщество, объединяющее разработчиков свободного  программного обеспечения</p></li></ul><ul><li><a href="https://www.basealt.ru/starterkits">Стартовые наборы</a><p>Разновидность поставки для опытных пользователей</p></li><li><a href="https://www.basealt.ru/platform">Программная платформа</a><p>На базе программной платформы собираются дистрибутивы «Альт»</p></li></ul></div></div></li><li id="li9"><a href="https://www.basealt.ru/partnerskaja-programma" id="mm9" class="withsub">Партнёры</a><div class="sub"><div class="columns2"><ul><li><a href="https://www.basealt.ru/partnerskaja-programma">Стать партнёром</a><p>Описание партнёрских статусов</p></li><li><a href="https://www.basealt.ru/partners">Все партнёры</a><p>Поиск реселлеров, дистрибьюторов, интеграторов, технологических партнёров, учебных центров</p></li><li><a href="https://www.basealt.ru/product-compatibility">Совместимость</a><p>Совместимость ОС «Альт» с аппаратными платформами и сторонним программным обеспечением</p></li></ul><ul><li><a href="https://www.basealt.ru/buy">Купить ОС «Альт»</a><p>Приобрести операционные системы «Альт»<br>и техподдержку</p></li><li><a href="https://my.basealt.space/" target="_blank">Личный кабинет</a><p>Вход для партнёров</p></li></ul></div></div></li><li id="li13"><a href="https://www.basealt.ru/altacademy" id="mm13">Альт Академия</a></li><li id="li550"><a href="https://www.basealt.ru/support" id="mm550">Поддержка</a></li></ul><!-- end of main_menu -->
+                <a id="btn_mobile" href="#mobile_menu" aria-label="Навигация"><span></span><span></span><span></span></a>
+                <form id="search_block" action="/search" method="get">
+                    <input type="hidden" name="searchid" value="2464084">
+                    <input type="hidden" name="web" value="0">
+                    <div class="search_input">
+                        <input type="text" name="text" placeholder="Поиск" id="form_search_text">
+                        <a href="#" class="close"></a>
+                    </div>
+                    <input class="search_btn" type="submit">
+                </form>
+                <div class="lang">
+                    
+                            <a href="https://www.basealt.ru/en" class="lang-link">En</a>
+                        
+                </div>
+            </div>
+        </div>
+    </div>
+</div><div id="main" class="product ">
+        
+        
+                
+
+    
+            
+                    <div id="c2948" class="frame frame-default frame-type-html frame-layout-0">
+                        
+                        
+                            
+
+
+
+                        
+                        
+                        
+
+    <style>
+    a.secondary:hover {
+    border-bottom: 1px solid transparent;
+}
+  
+  .row .col45{
+    flex-basis: 45%;
+    margin-bottom: 32px;
+}
+  }
+#main.product .product_slider .owl-nav button.owl-prev {
+    left:0;
+}  
+  
+  .text_holder_1 {
+    padding-left: 6px;
+  }  
+  
+#main.product .sub_banner {
+    padding: 0px;
+}  
+  
+.row [class^="col"] {
+  margin-bottom: 0px;
+}  
+  
+.row .col50 {
+    flex-basis: 50%;
+  margin-bottom:16px;
+}  
+  
+ 
+.bullet_vyle {
+    height: 20px;
+    margin-right: 7px;
+    background-color: #FF6B00;
+}  
+  
+.bullet_flex {
+    display: flex;
+    margin-bottom: 10px;
+}  
+  
+  .lf{margin-left:32px;}
+  .licvany{
+    margin:0px;
+    width:80%;
+    justify-content:space-between;
+  }  
+  
+.blank_ver {
+    width:250px;
+    margin-left: 32px;
+}  
+  
+  .pdd {margin-bottom:0;}     
+  
+#main.product .product_slider .owl-nav button.owl-next {
+    right:0;
+    background-size: 50%;
+    background-position: center center;
+  opacity:1;
+}  
+ 
+#main .owl-carousel .owl-nav button.owl-next {
+    right: 0;
+    background: #ffffff url(/typo3conf/ext/ttmpl/Resources/Public/Tmpl2/images/arrow_right.svg) no-repeat center center;
+}
+#main .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    border-radius: 50%;
+}
+#main .owl-carousel .owl-nav button {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    margin-top: -18px;
+    text-indent: -9999px;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+}
+.owl-carousel .owl-dot, .owl-carousel .owl-nav .owl-next, .owl-carousel .owl-nav .owl-prev {
+    cursor: pointer;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+ 
+  
+#main .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    border-radius: 50%;
+}
+
+#main .owl-carousel .owl-nav button.owl-prev {
+    left: 0;
+    background: #ffffff url(/typo3conf/ext/ttmpl/Resources/Public/Tmpl2/images/arrow_left.svg) no-repeat center center;
+}
+#main .owl-carousel .owl-nav button {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    margin-top: -18px;
+    text-indent: -9999px;
+}
+#main .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    border-radius: 50%;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+}
+.owl-carousel .owl-dot, .owl-carousel .owl-nav .owl-next, .owl-carousel .owl-nav .owl-prev {
+    cursor: pointer;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}  
+  
+.bann_rekl_sp{
+ margin:0 30px 0 0;
+ background: rgb(255,255,255);
+ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,135,68,0.4) 100%);
+ border:solid 1px #ffffff;
+border-radius: 14px;
+padding: 30px;
+height: 100%;
+position: relative; 
+  }
+ 
+  .bann_rekl_wk{
+ margin:0;
+background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(154,0,255,0.3) 100%); 
+ border:solid 1px #ffffff;
+border-radius: 14px;
+padding: 30px;
+height:100%;
+position: relative; 
+  } 
+  
+  
+  #main.product .main_banner.server {
+    background: url(/fileadmin/user_upload/products/bg_products-server1.png) no-repeat right;
+    z-index: 0;
+    background-size: cover;
+}
+
+#main.product .main_banner .icn_txt .icn + .txt {
+    margin-left: 30px;
+}
+
+#main.product .main_banner .icn_txt {
+    padding-top: 125px;
+}
+
+  
+#main.product .sub_banner {
+   background: none;
+}
+
+  #main.product .sub_banner1 {
+   background: url("/fileadmin/user_upload/products/bg_main_sp.png") no-repeat center center;
+    background-size:cover;
+    max-width: 100%;
+    margin: 40px 0;
+    padding: 20px 32px 20px;
+}
+  
+#main.product .spanel {
+    padding: 20px 20px;
+}  
+
+#main.product .product_slider {
+    max-width: 100%;
+    margin: 0 auto;
+}
+  
+  
+
+
+#section7_10 .item {
+    border: 1px solid #F3921A;
+    border-radius: 14px;
+    min-height: 108px;
+    padding: 20px 16px;
+    margin: 10px;
+}
+  
+  #section7_10 .item_grey {
+    border: 1px solid #dadada;
+    border-radius: 14px;
+    min-height: 108px;
+    padding: 20px 16px;
+    margin: 10px;
+}
+  
+  .row .col50_domen {
+    flex-basis: 50%;
+    -webkit-flex-basis: 50%;
+    text-align: center;
+}  
+  
+#main.product .composition.server {
+    background: none;
+}
+.btn.secondary1 {
+    border-color: #F3921A;
+    background: rgba(255, 255, 255, 0.6919999999999999);
+    color: #333333;
+    padding-left: 42px;
+}
+#main .tab_holder {
+    padding: 32px 32px;
+}
+  
+  
+.btn {
+    border: 1px solid #F6F6F6;
+    border-radius: 10px;
+}
+
+a.secondary {
+    border-bottom:  1px solid #F6F6F6;
+}
+  
+#main .blank {
+    padding: 32px;
+}
+
+ul.triangle {
+    padding-left: 10px;
+}
+  
+#main.product .why .item {
+  margin-bottom: 0px;
+}
+  
+#main.product .why .item .icn_txt {
+    align-items: center;
+}
+
+#main.product .compatibility {
+    margin-bottom: 40px;
+}
+#main.product .triangle_doc img {
+    width: 10px;
+    height: auto;
+}
+
+ #main .composition .img_holder_1 {
+    display:none;
+  }
+  
+@media screen and (max-width: 1200px) {
+#main.product .product_slider .owl-nav button.owl-prev {
+    left: 0;
+    top:50%;
+    }
+   
+#main.product .product_slider .owl-nav button.owl-next {
+    right: 0;
+    top:50%;
+    }
+     .txt_bull{
+    max-width:300px;
+    max-height:100px;
+  } 
+  
+#main.product .main_banner.server {
+    background: url(/fileadmin/user_upload/products/bg_products-server1.png) no-repeat top right;
+    z-index: 0;
+}
+}  
+  
+  @media screen and (max-width: 720px){
+         .licvany{
+    width:100%;
+  }  
+    .lf{
+      margin-left:0px;
+    }
+    
+    .row .col45 {
+    flex-basis: 100%;
+}
+    
+   .pdd {margin-bottom:-30px;}    
+    
+    .blank_ver {
+    width:100%;
+    margin-left:0px;
+    margin-top:40px;
+}     
+    
+ .text_holder_1 {
+    padding-left:0px;
+  }
+    
+ .text_holder {
+   margin-left: 20px;
+    } 
+  }  
+  
+@media screen and (max-width: 768px) {
+
+  
+.img_holder {
+        display: block;
+    }  
+  
+#main.product .composition .blank {
+padding:40px;
+}
+ #main .composition .img_holder_1 {
+    display:block;
+  }
+
+  .bann_rekl_sp {
+    margin:0;
+}
+}
+
+@media screen and (max-width: 640px) {
+    #main .tab_holder {
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-top: 30px;
+    }
+  #main.product .main_banner .icn_txt {
+    padding-top: 50px;
+    padding-right: 20px;
+  }
+   #main.product .sub_banner {
+   background:none;
+}
+
+  #main.product .sub_banner1 {
+   background:none;
+}
+  
+#main.product .why .item {
+        padding-bottom: 20px;
+        margin-bottom: 0;
+        border-bottom: 0;
+    }  
+  }  
+</style>
+
+
+                        
+                            
+
+
+
+                        
+                        
+                            
+
+
+
+                        
+                    </div>
+                
+
+        
+
+
+
+    
+            
+
+                    
+                        
+
+
+
+                    
+                    
+                    
+
+    <div class="main_banner server" id="top1">
+  <div class="container">
+    <div class="icn_txt">
+      <div class="icn">
+        <img src="files/logo-3d_server.png" alt="Альт Сервер 1">
+      </div>
+      <div class="txt">
+        <div>
+          <h1 class="head"><strong>Альт</strong> Контроллер</h1>
+        </div>
+        <div class="note">
+          <p>Операционная система для программируемых логических контроллеров на базе ядра Linux realtime
+          </p>
+        </div>
+        <div class="btns">
+          <a href="https://www.basealt.ru/alt-controller/download" class="btn secondary" rel="noreferrer">Скачать</a>
+          <a href="https://www.basealt.ru/buy" class="btn secondary" rel="noreferrer">Купить</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+                    
+                        
+
+
+
+                    
+                    
+                        
+
+
+
+                    
+                
+
+        
+
+
+            
+        
+
+    
+            
+
+                    
+                        
+
+
+
+                    
+                    
+                    
+
+    <a name="arrow_top"></a>
+<div class="container">
+  <div class="blank tab_holder">
+    <section>
+     <p style="font-size:20px; line-height:28px;">
+       <strong>«Альт Контроллер»</strong> — особый дистрибутив операционной системы семейства Альт, предназначенный для использования в составе с программируемыми логическими контроллерами, в системах где критична скорость реакции на внешние события, важна отказоустойчивость и минималистичность.&nbsp; &nbsp;</p>
+    </section>
+
+  </div>
+</div>
+
+
+                    
+                        
+
+
+
+                    
+                    
+                        
+
+
+
+                    
+                
+
+        
+
+
+
+    
+            
+                    <div id="c3892" class="frame frame-default frame-type-html frame-layout-0">
+                        
+                        
+                            
+
+
+
+                        
+                        
+                        
+
+    <div class="container">
+  <div class="row" style="margin:0 0 40px 0">
+   <div class="col" style="width:100%;">
+     
+  <div class="blank">
+    <section style="margin-bottom:0;">
+      <p style="margin-bottom: 12px; font-size:24px; font-weight:500;">Спецификация и лицензирование</p>
+      <div class="row licvany">
+        <div class="triangle">
+          <div class="point">
+            <img src="files/pdf_002.svg" alt="Альт files"> <a href="https://www.basealt.ru/fileadmin/docs/License_ALT_controller.pdf" target="_blank">Лицензионное соглашение</a>
+          </div>
+          <div class="point">    
+<a href="#documentation" class="scrollTo" rel="noreferrer"><img src="files/arrow_btn.svg" style="width:10px; margin:0 8px;" alt="Альт Контроллер">  Документация</a>
+        </div>
+    </div>
+      
+             <div class="triangle">
+          <div class="point">
+            <img src="files/pdf_002.svg" alt="Альт Контроллер"> <a class="ym_ALL_SPEC" href="https://www.basealt.ru/fileadmin/docs/Specification_ALT_controller.pdf" target="_blank">Спецификация</a>
+          </div>
+          </div></div>
+        </section>
+</div>
+</div>
+   
+<div class="col blank_ver">
+  <div class="blank">
+<div class="triangle">
+  <!--<div class="point"><a href="/alt-server-11" style="color:#F3921A;">Версия 11.0</a></div>-->
+          <div class="point"><span style="background:#f6f6f6; padding:8px; border-radius:10px; margin-left:-8px;">Версия 11.0</span></div> 
+        
+</div>    
+  </div>
+  </div>    
+  </div>
+  
+</div>
+
+
+                        
+                            
+
+
+
+                        
+                        
+                            
+
+
+
+                        
+                    </div>
+                
+
+        
+
+
+
+    
+            
+                    <div id="c3709" class="frame frame-default frame-type-html frame-layout-0">
+                        
+                        
+                            
+
+
+
+                        
+                        
+                        
+
+    <div class="container">
+  <section class="why server">
+    <div class="blank">
+      <h2 style="margin-bottom:42px;">Почему используют «Альт Контроллер»</h2>
+      <div class="row wrap">
+        <div class="col50" style="align-items:start">
+          <div class="inside">
+            <div class="item">
+              <div class="icn_txt">
+                <span class="img_holder icn">
+                  <img src="files/serv1.svg" style="width:40px;" alt="Альт Сервер 6">
+                </span>
+                <span class="txt">ПО входит в реестр Минцифры (регистрационный номер
+                  ПО: <a href="https://reestr.digital.gov.ru/reestr/302891/?sphrase_id=244032" target="_blank">????</a>)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col50" style="align-items:start">
+          <div class="inside">
+            <div class="item">
+              <div class="icn_txt">
+                <span class="img_holder icn">
+                  <img src="files/serv2.svg" style="width:40px;" alt="Альт Сервер 7">
+                </span>
+                <span class="txt">Дистрибутив выпускается в нескольких вариантах исполнения: для x86
+(64-битных), AArch64 (Huawei Kunpeng, ThunderX и другие), e2kv5/e2kv6 («Эльбрус»).</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col50" style="align-items:start">
+          <div class="inside">
+            <div class="item">
+              <div class="icn_txt">
+                <span class="img_holder icn">
+                    <img src="files/serv4.svg" style="width:40px;" alt="Альт Сервер 8">
+                </span>
+                <span class="txt">Поддерживает контроллеры доменов <a href="https://www.basealt.ru/alt-domain" target="_blank">«Альт Домен»</a>*
+                  (Samba&nbsp;DC c
+поддержкой <a href="https://www.basealt.ru/domain" target="_blank">групповых политик</a> для бесшовной миграции с Windows<br> на
+Linux), FreeIPA (для централизованной аутентификации пользователей).
+</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col50" style="align-items:start">
+          <div class="inside">
+            <div class="item">
+              <div class="icn_txt">
+                <span class="img_holder icn">
+                    <img src="files/serv3.svg" style="width:40px;" alt="Альт Сервер 9">
+                </span>
+                <span class="txt">Содержит сетевые службы и сервисы для полноценного
+                  функционирования <a href="https://www.basealt.ru/vdi" target="_blank">корпоративной инфраструктуры</a></span>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+      <div class="row wrap">
+        <div class="col50" style="align-items:start">
+          <div class="inside">
+            <div class="item">
+              <div class="icn_txt">
+                <span class="img_holder icn">
+                    <img src="files/serv5.svg" style="width:40px;" alt="Альт Сервер 10">
+                </span>
+                <span class="txt">Безопасные** настройки конфигурации</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col50" style="align-items:start">
+          <div class="inside">
+            <div class="item">
+              <div class="icn_txt">
+                <span class="img_holder icn">
+                    <img src="files/serv6.svg" style="width:40px;" alt="Альт Сервер 11">
+                </span>
+                <span class="txt">Для построения офисной инфраструктуры в рамках
+                  импортозамещения рекомендуется использовать вместе с <a href="https://www.basealt.ru/alt-workstation" target="_blank">«Альт
+                  Рабочей станцией»</a></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col50" style="align-items:start">
+          <div class="inside">
+            <div class="item">
+              <div class="icn_txt">
+                <span class="img_holder icn">
+                     <img src="files/serv7.svg" style="width:40px;" alt="Альт Сервер 12">
+                </span>
+                <span class="txt"><a href="https://www.basealt.ru/product-compatibility" target="_blank">Совместимость</a> с экосистемой ПО отечественных
+                  производителей</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col50" style="align-items:start">
+          <div class="inside">
+            <div class="item">
+              <div class="icn_txt">
+                <span class="img_holder icn">
+                     <img src="files/serv8.svg" style="width:40px;" alt="Альт Сервер 13">
+                </span>
+                <span class="txt">Система управления сервером имеет более 100 модулей и
+                  позволяет работать через графический или веб-интерфейс</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="small">
+         <b>*</b> Программный комплекс «Альт Домен» <a href="https://www.basealt.ru/alt-domain" target="_blank">лицензируется и поддерживается</a> отдельно.<br>
+        <b>**</b> Сроки поддержки в части обновлений по безопасности (если иное не предусмотрено
+        условиями поставки):<br>
+        <!-- <b>-</b> для дистрибутивов «Альт Сервер» 9 версий — поддержка до 10 августа 2026 г. Продажи прекращены;<br> -->
+        <ul class="">
+          <li>- поддержка 9 платформы завершена 31.12.2023 г., продажи дистрибутивов на 9 платформе
+            прекращены, сертификаты вендорской технической поддержки дистрибутивов на 9 платформе <a href="https://www.basealt.ru/about/news/archive/view/default-a07590d4bd" target="_blank">обслуживаются в соответствии с SLA</a> до полного завершения их
+            действия;</li>
+          <li>- для дистрибутивов «Альт Сервер» 10 версий — 31 декабря 2025, но не ранее полугода с
+            момента выпуска новой версии (11.0).
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</div>
+
+
+                        
+                            
+
+
+
+                        
+                        
+                            
+
+
+
+                        
+                    </div>
+                
+
+        
+
+
+
+    
+            
+
+                    
+                        
+
+
+
+                    
+                    
+                    
+
+    <section class="composition server">
+  <div class="container">
+    <div class="blank">
+      <h2 style="margin-bottom:40px;">«Альт Сервер» предоставляет полный набор служб для&nbsp;создания
+        корпоративной инфраструктуры
+      </h2>
+
+        <div class="row wrap between" style="margin-bottom:40px;">
+
+                <div class="col45">
+                    <div class="item">
+                        <div class="bullet_flex">
+                            <div style="width:3px; padding-right:12px;">
+                                <div class="bullet_vyle" style="width:3px;"></div>
+                            </div> Samba DC и групповые политики
+            в составе «Альт Домена»
+                        </div>
+                    </div>
+                </div>
+                <div class="col45">
+                    <div class="item" style="margin-right: 30px;">
+                        <div class="bullet_flex">
+                            <div style="width:3px; padding-right:12px;">
+                                <div class="bullet_vyle" style="width:3px;"></div>
+                            </div>Почтовые
+            серверы Postfix, Dovecot
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col45">
+                    <div class="item">
+                        <div class="bullet_flex">
+                            <div style="width:3px; padding-right:12px;">
+                                <div class="bullet_vyle" style="width:3px;"></div>
+                            </div>Сервер антиспама Spamassassin
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col45">
+                    <div class="item">
+                        <div class="bullet_flex">
+                            <div style="width:3px; padding-right:12px;">
+                                <div class="bullet_vyle" style="width:3px;"></div>
+                            </div>Прокси-сервер Squid
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="col45">
+                    <div class="item" style="margin-right: 30px;">
+                        <div class="bullet_flex">
+                            <div style="width:3px; padding-right:12px;">
+                                <div class="bullet_vyle" style="width:3px;"></div>
+                            </div>Веб-серверы Apache, NGINX
+                        </div>
+                    </div>
+                </div>
+                <div class="col45">
+                    <div class="item">
+                        <div class="bullet_flex">
+                            <div style="width:3px; padding-right:12px;">
+                                <div class="bullet_vyle" style="width:3px;"></div>
+                            </div>Сервер подключений VDI
+                        </div>
+                    </div>
+                </div>
+                <div class="col45">
+                    <div class="item">
+                        <div class="bullet_flex">
+                            <div style="width:3px; padding-right:12px;">
+                                <div class="bullet_vyle" style="width:3px;"></div>
+                            </div>Средства для создания зеркала
+            репозитория для централизованного
+            обновления и инструменты разработчика
+                        </div>
+                    </div>
+                </div>
+          
+                          <div class="col45">
+                    <div class="item">
+                        <div class="bullet_flex">
+                            <div style="width:3px; padding-right:12px;">
+                                <div class="bullet_vyle" style="width:3px;"></div>
+                            </div>Система резервного копирования
+            серверов и рабочих станций под
+            управлением Windows и Linux
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col45">
+                    <div class="item" style="margin-right: 30px;">
+                        <div class="bullet_flex">
+                            <div style="width:3px; padding-right:12px;">
+                                <div class="bullet_vyle" style="width:3px;"></div>
+                            </div>Графическая среда
+                        </div>
+                    </div>
+                </div>
+
+                          <div class="col45">
+                    <div class="item">
+                        <div class="bullet_flex">
+                            <div style="width:3px; padding-right:12px;">
+                                <div class="bullet_vyle" style="width:3px;"></div>
+                            </div>Сервер сетевой
+            установки (загрузки)
+                        </div>
+                    </div>
+                </div>
+                <div class="col45">
+                    <div class="item">
+                        <div class="bullet_flex">
+                            <div style="width:3px; padding-right:12px;">
+                                <div class="bullet_vyle" style="width:3px;"></div>
+                            </div>Сервер совместной работы
+            Nextcloud
+                        </div>
+                    </div>
+                </div>
+                <div class="col45">
+                    <div class="item">
+                        <div class="bullet_flex">
+                            <div style="width:3px; padding-right:12px;">
+                                <div class="bullet_vyle" style="width:3px;"></div>
+                            </div>Сервер мониторинга Zabbix
+                        </div>
+                    </div>
+                </div>
+                <div class="col45">
+                    <div class="item">
+                        <div class="bullet_flex">
+                            <div style="width:3px; padding-right:12px;">
+                                <div class="bullet_vyle" style="width:3px;"></div>
+                            </div>Серверы баз данных (СУБД)
+                        </div>
+                    </div>
+                </div>
+                 <div class="col45">
+                    <div class="item">
+                        <div class="bullet_flex">
+                            <div style="width:3px; padding-right:12px;">
+                                <div class="bullet_vyle" style="width:3px;"></div>
+                            </div>PostgreSQL, MariaDB
+                        </div>
+                    </div>
+                </div>
+                <div class="col45">
+                    <div class="item">
+                        <div class="bullet_flex">
+                            <div style="width:3px; padding-right:12px;">
+                                <div class="bullet_vyle" style="width:3px;"></div>
+                            </div>FreeIPA для централизованной
+            аутентификации пользователей
+                        </div>
+                    </div>
+                </div>
+            </div>
+ <!--<div class="img_holder" style="text-align:center; margin-bottom: 40px;">
+        <img src="/fileadmin/user_upload/products/shema_serv.png" style="width: auto; padding-top: 30px;">
+      </div>
+<div class="img_holder" style="text-align:center; margin-bottom:0px;">
+        <img src="/fileadmin/user_upload/products/alt_serv_domen.svg" style="width: auto; padding-top: 30px;">
+      </div>-->
+  <section id="section7_10">
+      <p style="margin-bottom:24px; text-align:center; font-weight:500; font-size:20px;">
+        «Альт Cервер» предоставляет следующие виды контроллеров домена
+      </p>
+      <div class="row wrap center">
+        <div class="col50_domen">
+        <div class="item">
+          <div class="title">FreeIPA</div>
+          <p class="subtitle">(средство централизованной аутентификации пользователей)<br><br></p>
+        </div>
+     
+   <img src="files/arrow_btn.svg" style="width:15px; margin-top:-23px;" alt="Альт Сервер 14">
+        <div class="item_grey">
+          <p>Компоненты для&nbsp;централизованного управления пользователями с&nbsp;поддержкой политик доступа и&nbsp;аудита</p>
+        </div>
+    </div>
+        
+                <div class="col50_domen">
+                <div class="item">
+          <div class="title">Samba DC </div>
+          <p class="subtitle">(контроллер домена Active Directory):<br>программный комплекс <a href="https://www.basealt.ru/alt-domain" target="_blank">«Альт Домен»</a> лицензируется и поддерживается отдельно.</p>
+        </div>
+        <img src="files/arrow_btn.svg" style="width:15px; margin-top:-23px;" alt="Альт Сервер 15">
+        <div class="item_grey">
+          <p>Рекомендуется для&nbsp;аутентификации рабочих станций под&nbsp;управлением Windows и&nbsp;Linux
+            (гетерогенная сеть)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+      
+    </div>
+</section>
+
+
+
+                    
+                        
+
+
+
+                    
+                    
+                        
+
+
+
+                    
+                
+
+        
+
+
+
+    
+            
+
+                    
+                        
+
+
+
+                    
+                    
+                    
+
+    <div class="container" id="documentation">
+  <div class="blank">
+    <header>
+      <h2>
+        Документация для ОС «Альт Сервер»
+      </h2>
+    </header>
+    <div class="point">
+      <img src="files/pdf.svg" alt="Альт Сервер 16"> <a href="https://www.basealt.ru/fileadmin/user_upload/manual/Alt_Server_install_p10.pdf" target="_blank">Установка дистрибутива (версия 10.4)</a>
+    </div>
+    <div class="point">
+      <img src="files/pdf.svg" alt="Альт Сервер 17">&nbsp;<a href="https://www.basealt.ru/fileadmin/user_upload/manual/Alt_Server_functional_p10.pdf" target="_blank">Функциональные характеристики (версия 10.4)</a>
+    </div>
+    <div class="point">
+      <img src="files/pdf.svg" alt="Альт Сервер 18"> <a href="https://www.basealt.ru/fileadmin/user_upload/manual/Alt_Server_life_cycle_p10.pdf" target="_blank">Жизненный цикл (версия 10.4)</a>
+    </div><br>
+    <ul class="triangle">
+      <li><a href="https://docs.altlinux.org/ru-RU/alt-server/10.4/html/alt-server/index.html" target="_blank" rel="noreferrer">Онлайн-документация для «Альт Сервера» (версия 10.4)</a></li>
+      <li><a href="https://docs.altlinux.org/ru-RU/alt-server-e2k/10.4/html/alt-server-e2k/index.html" target="_blank" rel="noreferrer">Онлайн-документация для «Альт Сервера»&nbsp;на платформе «Эльбрус»
+        (версия 10.4)</a></li>
+    </ul>
+    <p>Пользовательская документация также поставляется в составе дистрибутива. </p>
+
+    <div class="point"> <a href="#" class="toggle-blocks not-hide" data-toggle="archive-1">Архивные
+      (неподдерживаемые) версии  <img src="files/fa-solid_chevron-down_1.png" style="width:10px;" alt="Альт Сервер 19"></a>
+    </div>
+    <div class="block-hidden archive-1 frame" style="display: none;">
+      <div class="frame frame-default frame-type-text frame-layout-0 frame-space-before-medium frame-space-after-large">
+        <div class="point">
+          <img src="files/pdf.svg" alt="Альт Сервер 20"> <a href="https://www.basealt.ru/fileadmin/user_upload/Alt_Server_install.pdf" target="_blank">Установка дистрибутива (версия 9.2)</a>
+        </div>
+        <div class="point">
+          <img src="files/pdf.svg" alt="Альт Сервер 21">&nbsp;<a href="https://www.basealt.ru/fileadmin/user_upload/Alt_Server_functional.pdf" target="_blank">Функциональные характеристики (версия 9.2)</a>
+        </div>
+        <div class="point">
+          <img src="files/pdf.svg" alt="Альт Сервер 22"> <a href="https://www.basealt.ru/fileadmin/user_upload/manual/ALT_Server_lifecycle.pdf" target="_blank">Жизненный&nbsp;цикл (версия 9.2)</a>
+        </div><br>
+        <ul class="triangle">
+          <li><a href="https://docs.altlinux.org/ru-RU/archive/9.0/alt-server/" target="_blank" rel="noreferrer">Документация для «Альт Сервера» (версия 9.2)</a>
+          </li>
+          <li><a href="https://docs.altlinux.org/ru-RU/archive/9.0/html/alt-server-e2k/" target="_blank" rel="noreferrer">Документация для «Альт Сервера» на платформе
+            «Эльбрус» (версия
+            9.2)</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+                    
+                        
+
+
+
+                    
+                    
+                        
+
+
+
+                    
+                
+
+        
+
+
+
+    
+            
+
+                    
+                        
+
+
+
+                    
+                    
+                    
+
+    <section class="sub_banner">
+  <div class="container">
+<div class="row center wrap" style="margin: 0;">
+    <div class="col50">
+      <div class="bann_rekl_sp">
+    <div class="row vcenter between wrap">
+      <div class="col" style="margin:0px;">
+            <img src="files/logo_sp.png" style="width:150px; height:auto;" alt="Альт Сервер 23">
+        </div>
+      <div class="col" style="margin:0px; flex-basis:70%">
+          <div class="text_holder_1">
+            <h3 style="margin-bottom: 12px;">
+              Альт СП
+            </h3>
+            <p>Cертифицированное ФСТЭК<br>серверное решение
+           <br> <a href="https://www.basealt.ru/altsp">Узнать
+                больше  → </a> </p>
+      </div>
+  </div>
+  </div>
+      </div>
+  </div>
+    <div class="col50">
+      <div class="bann_rekl_wk">
+    <div class="row vcenter between wrap">
+      <div class="col" style="margin:0px;">
+            <img src="files/work.png" style="width:150px; height:auto;" alt="Альт Сервер 24">
+        </div>
+      <div class="col" style="margin:0px; flex-basis:70%">
+          <div class="text_holder">
+            <h3 style="margin-bottom: 12px;">
+             Альт Рабочая станция
+            </h3>
+            <p>Для построения офисной инфраструктуры рекомендуется использовать вместе<br>с «Альт Рабочей станцией»
+           <br> <a href="https://www.basealt.ru/alt-workstation">Узнать
+                больше  → </a> </p>
+      </div>
+  </div>
+  </div>
+      </div>
+  </div>
+    </div>
+  </div>
+</section>
+
+
+                    
+                        
+
+
+
+                    
+                    
+                        
+
+
+
+                    
+                
+
+        
+
+
+
+    
+            
+
+                    
+                        
+
+
+
+                    
+                    
+                    
+
+    <div class="container">
+<!--  <section class="screen">
+    <h2>Как выглядит система</h2>
+    <div class="product_slider owl-carousel">
+      <a href="/typo3conf/ext/ttmpl/Resources/Public/Tmpl2/screenshots/altserver10-screen1.png" data-fancybox="slides" class="item">
+        <img src="/typo3conf/ext/ttmpl/Resources/Public/Tmpl2/screenshots/altserver10-screen1.png">
+      </a>
+      <a href="/typo3conf/ext/ttmpl/Resources/Public/Tmpl2/screenshots/altserver10-screen2.png" data-fancybox="slides" class="item">
+        <img src="/typo3conf/ext/ttmpl/Resources/Public/Tmpl2/screenshots/altserver10-screen2.png">
+      </a>
+      <a href="/typo3conf/ext/ttmpl/Resources/Public/Tmpl2/screenshots/altserver10-screen3.png" data-fancybox="slides" class="item">
+        <img src="/typo3conf/ext/ttmpl/Resources/Public/Tmpl2/screenshots/altserver10-screen3.png">
+      </a>
+      <a href="/typo3conf/ext/ttmpl/Resources/Public/Tmpl2/screenshots/altserver10-screen4.png" data-fancybox="slides" class="item">
+        <img src="/typo3conf/ext/ttmpl/Resources/Public/Tmpl2/screenshots/altserver10-screen4.png">
+      </a>
+      <a href="/typo3conf/ext/ttmpl/Resources/Public/Tmpl2/screenshots/altserver10-screen5.png" data-fancybox="slides" class="item">
+        <img src="/typo3conf/ext/ttmpl/Resources/Public/Tmpl2/screenshots/altserver10-screen5.png">
+      </a>
+    </div>
+  </section>-->
+  
+   <section class="screen" style="margin-bottom:80px;">
+        <h2>Как выглядит система</h2>
+        <div class="product_slider owl-carousel owl-loaded owl-drag">
+            
+            
+            
+            
+            
+                      
+        <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-3146px, 0px, 0px); transition: 0.4s; width: 4720px;"><div class="owl-item cloned" style="width: 365.333px; margin-right: 28px;"><a href="https://www.basealt.ru/fileadmin/user_upload/products/screens_server/s4_b.png" data-fancybox="slides" class="item">
+                <img src="files/s4.png" alt="Альт Сервер 28">
+            </a></div><div class="owl-item cloned" style="width: 365.333px; margin-right: 28px;"><a href="https://www.basealt.ru/fileadmin/user_upload/products/screens_server/s5_b.png" data-fancybox="slides" class="item">
+                <img src="files/s5.png" alt="Альт Сервер 29">
+            </a></div><div class="owl-item cloned" style="width: 365.333px; margin-right: 28px;"><a href="https://www.basealt.ru/fileadmin/user_upload/products/screens_server/s6_b.png" data-fancybox="slides" class="item">
+                <img src="files/s6.png" alt="Альт Сервер 30">
+            </a></div><div class="owl-item" style="width: 365.333px; margin-right: 28px;"><a href="https://www.basealt.ru/fileadmin/user_upload/products/screens_server/s1_b.png" data-fancybox="slides" class="item">
+                <img src="files/s1.png" alt="Альт Сервер 25">
+            </a></div><div class="owl-item" style="width: 365.333px; margin-right: 28px;"><a href="https://www.basealt.ru/fileadmin/user_upload/products/screens_server/s2_b.png" data-fancybox="slides" class="item">
+                <img src="files/s2.png" alt="Альт Сервер 26">
+            </a></div><div class="owl-item" style="width: 365.333px; margin-right: 28px;"><a href="https://www.basealt.ru/fileadmin/user_upload/products/screens_server/s3_b.png" data-fancybox="slides" class="item">
+                <img src="files/s3.png" alt="Альт Сервер 27">
+            </a></div><div class="owl-item" style="width: 365.333px; margin-right: 28px;"><a href="https://www.basealt.ru/fileadmin/user_upload/products/screens_server/s4_b.png" data-fancybox="slides" class="item">
+                <img src="files/s4.png" alt="Альт Сервер 28">
+            </a></div><div class="owl-item" style="width: 365.333px; margin-right: 28px;"><a href="https://www.basealt.ru/fileadmin/user_upload/products/screens_server/s5_b.png" data-fancybox="slides" class="item">
+                <img src="files/s5.png" alt="Альт Сервер 29">
+            </a></div><div class="owl-item active" style="width: 365.333px; margin-right: 28px;"><a href="https://www.basealt.ru/fileadmin/user_upload/products/screens_server/s6_b.png" data-fancybox="slides" class="item">
+                <img src="files/s6.png" alt="Альт Сервер 30">
+            </a></div><div class="owl-item cloned active" style="width: 365.333px; margin-right: 28px;"><a href="https://www.basealt.ru/fileadmin/user_upload/products/screens_server/s1_b.png" data-fancybox="slides" class="item">
+                <img src="files/s1.png" alt="Альт Сервер 25">
+            </a></div><div class="owl-item cloned active" style="width: 365.333px; margin-right: 28px;"><a href="https://www.basealt.ru/fileadmin/user_upload/products/screens_server/s2_b.png" data-fancybox="slides" class="item">
+                <img src="files/s2.png" alt="Альт Сервер 26">
+            </a></div><div class="owl-item cloned" style="width: 365.333px; margin-right: 28px;"><a href="https://www.basealt.ru/fileadmin/user_upload/products/screens_server/s3_b.png" data-fancybox="slides" class="item">
+                <img src="files/s3.png" alt="Альт Сервер 27">
+            </a></div></div></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots disabled"></div></div>
+    </section>
+</div> 
+
+
+
+
+
+                    
+                        
+
+
+
+                    
+                    
+                        
+
+
+
+                    
+                
+
+        
+
+
+
+    
+            
+                    <div id="c3710" class="frame frame-default frame-type-html frame-layout-0">
+                        
+                        
+                            
+
+
+
+                        
+                        
+                        
+
+    
+<div class="container">
+  <section class="get">
+    <div class="inner">
+      <h2>Получить «Альт Сервер»</h2>
+      <div class="row">
+        <div class="col50">
+          <div class="inside">
+            <div class="spanel">
+              <a href="https://www.basealt.ru/alt-server/download" class="icn_txt">
+                <span class="icn"><img src="files/icon34.svg" alt="Альт Сервер 31"></span>
+                <span class="txt">Скачать «Альт Сервер»</span>
+              </a>
+            </div>
+            <div class="spanel">
+              <a href="https://www.basealt.ru/support" class="icn_txt">
+                <span class="icn"><img src="files/icon36.svg" alt="Альт Сервер 32"></span>
+                <span class="txt">Техническая поддержка и пресейл</span>
+              </a>
+            </div>           
+          </div>
+        </div>
+        <div class="col50">
+          <div class="inside" style="margin: 0 16px;">
+            <div class="spanel" style="padding:15px;">
+              <a href="https://www.basealt.ru/buy" class="icn_txt">
+                <span class="icn"><img src="files/icon35.svg" alt="Альт Сервер 33"></span>
+                <span class="txt">Купить* лицензии «Альт Сервера» для использования в
+                  организациях</span>
+              </a>
+            </div>
+                      <div class="inside">     
+       <p class="notice">* Системным интеграторам, дистрибьюторам и OEM-производителям для&nbsp;получения прав
+        на&nbsp;распространение следует обращаться в&nbsp;ООО&nbsp;«Базальт СПО» по адресу <a class="ym_ALL_MAIL" href="mailto:sales@basealt.ru">sales@basealt.ru</a> для заключения письменного договора.</p>
+        </div>
+          </div>
+        </div>        
+      </div>
+    </div>
+  </section>
+</div> 
+
+
+
+
+                        
+                            
+
+
+
+                        
+                        
+                            
+
+
+
+                        
+                    </div>
+                
+
+        
+
+
+
+    
+            
+                    <div id="c3711" class="frame frame-default frame-type-html frame-layout-0">
+                        
+                        
+                            
+
+
+
+                        
+                        
+                        
+
+    <div class="container">
+  <section class="compatibility">
+    <div class="inner">
+      <h2>Совместимость</h2>
+      <div class="row">
+        <div class="col50">
+          <div class="inside">
+            <div class="spanel">
+              <a href="https://www.basealt.ru/fileadmin/user_upload/compatibility/P10-view2.html" target="_blank" class="icn_txt">
+                <span class="icn"><img src="files/icon37.svg" alt="Альт Сервер 34"></span>
+                <span class="txt">Таблица совместимости <em>10 платформа</em></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col50">
+          <div class="inside">
+            <div class="spanel">
+              <a href="https://www.basealt.ru/fileadmin/user_upload/compatibility/P9-view2.html" target="_blank" class="icn_txt">
+                <span class="icn"><img src="files/icon37.svg" alt="Альт Сервер 35"></span>
+                <span class="txt">Таблица совместимости <em>9 платформа</em></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="links">
+    <div class="row">
+      <div class="col50">
+        <div class="inside">
+          <h2>Спецификация и&nbsp;лицензирование</h2>
+          <div class="spanel">
+            <div class="triangle">
+              <div class="point" style="padding-top:0px;">
+                <a href="https://www.basealt.ru/fileadmin/docs/License_ALT_Server_10.4.pdf" target="_blank" class="icn_txt">
+                  <span class="icn"><img src="files/pdf.svg" alt="Альт Сервер 36"></span>
+                  <span class="txt">Лицензионное соглашение</span>
+                </a>
+              </div>
+              <div class="point">
+                <a href="https://www.basealt.ru/fileadmin/docs/License_policy.pdf" target="_blank" class="icn_txt">
+                  <span class="icn"><img src="files/pdf.svg" alt="Альт Сервер 37"></span>
+                  <span class="txt">Общая политика лицензирования</span>
+                </a>
+              </div>
+              <div class="point">
+                <a href="https://www.basealt.ru/fileadmin/docs/Specification_ALT_Server_10.4.pdf" target="_blank" class="icn_txt ym_ALL_SPEC">
+                  <span class="icn"><img src="files/pdf.svg" alt="Альт Сервер 38"></span>
+                  <span class="txt">Спецификации «Альт Сервера»</span>
+                </a>
+              </div>
+            </div>
+          </div>
+<div id="c1169"></div>
+          <div class="spanel_1" style="padding: 16px;">
+            <a href="https://www.basealt.ru/product-feedback" class="icn_txt">
+              <span class="icn"><img src="files/53.png" style="width:30px;" alt="Альт Сервер 39"></span>
+              <span class="txt">Оставить отзыв</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col50">
+        <div class="inside">
+          <h2>Полезные ссылки</h2>
+          <div class="spanel" style=" padding:32px;">
+            <ul class="triangle">
+              <li>
+                <a href="https://www.altlinux.org/%D0%90%D0%BB%D1%8C%D1%82_%D0%A1%D0%B5%D1%80%D0%B2%D0%B5%D1%80_10" target="_blank">Техническая
+                  информация</a>
+              </li>
+              <li>
+                <a class="ym_ALL_MESSENG ym_ALL_TELEGRAM" href="https://t.me/basealtspo" target="_blank">Телеграм-канал</a>
+              </li>
+              <li>
+                <a class="ym_ALL_SOCIAL ym_ALL_VK" href="https://vk.com/altlinux" target="_blank">Группа ВКонтакте</a>
+              </li>
+              <li>
+                <a href="https://rutube.ru/channel/26209037/" class="ym_ALL_RUTUBE" target="_blank">Видеоканал</a>
+              </li>
+              <li>
+                <a class="ym_ALL_SOCIAL ym_ALL_DZEN" href="https://dzen.ru/id/621e0fc88b26266f04745c3f" target="_blank">Дзен</a>
+              </li>
+              <li>
+                <a class="ym_ALL_SOCIAL ym_ALL_FORUM" href="https://forum.altlinux.org/" target="_blank">Форум</a>
+              </li>
+            </ul>
+          </div>
+          <div class="docum_top">
+            <a href="#top1" class="scrollTo"><img src="files/arrow_top_01.svg" alt="Альт Сервер 40"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+
+                        
+                            
+
+
+
+                        
+                        
+                            
+
+
+
+                        
+                    </div>
+                
+
+        
+
+
+        
+
+
+    </div><div id="footer">
+    <div class="container">
+        <div class="top">
+            <div class="row">
+                <div class="col25">
+                    <div class="inside">
+                        
+
+    
+            
+
+                    
+                        
+
+
+
+                    
+                    
+                    
+
+    <div class="logo">
+  <img src="files/icon27.png" alt="basealt" width="147" height="107">
+</div>
+<div class="contact">
+  <p><a class="ym_ALL_PHONE" href="tel:+74951234799">+7 (495) 123-47-99</a><br>
+    <a class="ym_ALL_MAIL" href="mailto:org@basealt.ru">org@basealt.ru</a><br>
+    Москва, ул. Бутырская, д. 75<br> ИНН: 7714350892</p>
+</div>
+
+
+
+
+                    
+                        
+
+
+
+                    
+                    
+                        
+
+
+
+                    
+                
+
+        
+
+
+                    </div>
+                </div>
+                <div class="col75">
+                    <div class="inside">
+                        <div class="menus">
+                            <div class="menu">
+    
+    
+
+        <ul><li><a href="https://www.basealt.ru/vacancies">Вакансии</a></li><li><a href="https://www.basealt.ru/policy">Политика конфиденциальности</a></li><li><a href="https://www.basealt.ru/user-agreement">Пользовательское соглашение</a></li><li><a href="https://www.basealt.ru/cookies">Соглашение об использовании<br> cookie-файлов</a></li><li><a href="https://www.basealt.ru/sout">Результаты СОУТ</a></li><li><a href="https://www.basealt.ru/rec">Реквизиты</a></li></ul>
+    
+</div>
+
+
+<div class="menu">
+    
+    
+
+        <ul><li><a href="https://www.basealt.ru/products">Все продукты</a></li><li><a href="https://www.basealt.ru/product-compatibility">Совместимость</a></li><li><a href="https://www.basealt.ru/sr">Запрос на сопровождение<br> (техподдержку)</a></li></ul>
+    
+</div>
+
+
+<div class="menu">
+    
+    
+
+        <ul><li><a href="https://www.basealt.ru/sitemap">Карта сайта</a></li><li><a href="https://www.basealt.ru/poleznye-ssylki">Полезные ссылки</a></li><li><a href="https://www.basealt.ru/contacts">Контакты</a></li></ul>
+    
+</div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="row vcenter between">
+                
+
+    
+            
+
+                    
+                        
+
+
+
+                    
+                    
+                        
+
+    
+
+
+
+                    
+                    
+
+    
+    <div class="copyright">© ООО «Базальт СПО» — российский разработчик операционных систем «Альт», 2015–2025</div>
+
+
+                    
+                        
+
+
+
+                    
+                    
+                        
+
+
+
+                    
+                
+
+        
+
+
+
+    
+            
+
+                    
+                        
+
+
+
+                    
+                    
+                    
+
+    <div class="socials">
+    <a class="ym_ALL_SOCIAL ym_ALL_VK" href="https://vk.com/altlinux" target="_blank">
+        <img src="files/icon28.svg" alt="VK" width="24" height="25">
+    </a>
+<!--  
+    <a href="https://www.youtube.com/channel/UCtCfzqL49AkFYQ7JQcL_iSw" target="_blank">
+        <img src="/typo3conf/ext/ttmpl/Resources/Public/Tmpl2/images/icon29.svg"  alt="Youtube" width="25" height="25">
+    </a>
+-->
+    <a class="ym_ALL_SOCIAL ym_ALL_DZEN" href="https://dzen.ru/id/621e0fc88b26266f04745c3f" target="_blank">
+        <img src="files/icon30.svg" alt="Яндекс Дзен" width="25" height="25">
+    </a>
+    <a class="ym_ALL_TELEGRAM ym_ALL_MESSENG" href="https://t.me/basealtspo" target="_blank">
+        <img src="files/icon31.svg" alt="Telegram" width="25" height="25">
+    </a>
+    <a href="https://www.basealt.ru/feed.rss" target="_blank">
+        <img src="files/icon32.svg" alt="RSS" width="25" height="25">
+    </a>
+    <a class="ym_ALL_SOCIAL ym_ALL_FORUM" href="https://forum.altlinux.org/" target="_blank">
+        <img src="files/icon33.svg" alt="forum.altlinux.org" width="24" height="25">
+    </a>
+</div>
+
+
+
+                    
+                        
+
+
+
+                    
+                    
+                        
+
+
+
+                    
+                
+
+        
+
+
+            </div>
+        </div>
+    </div>
+</div><div class="cookie" id="cookie-block" style="">
+
+    <p style="margin-bottom: 8px;">
+        Мы используем файлы <a href="https://www.basealt.ru/cookies">«cookie»</a>
+ с целью повышения удобства пользования веб-сайтом. Если вы не хотите, 
+чтобы ваши данные обрабатывались, пожалуйста, ограничьте их 
+использование в своём браузере.
+    </p>
+
+    <!--<a href="#" class="close-link close-btn btn secondary">Закрыть</a>-->
+
+    <button type="button" class="button--cookie close-link">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"><path d="M7.792,102l4.04-4.04a.6.6,0,0,0,0-.847l-.939-.939a.6.6,0,0,0-.847,0l-4.039,4.04-4.04-4.04a.6.6,0,0,0-.847,0l-.938.938a.6.6,0,0,0,0,.847L4.222,102l-4.04,4.04a.6.6,0,0,0,0,.847l.939.939a.6.6,0,0,0,.847,0l4.039-4.04,4.04,4.04a.6.6,0,0,0,.847,0l.939-.939a.6.6,0,0,0,0-.847Z" transform="translate(-0.007 -95.997)" fill="currentColor"></path></svg>
+    </button>
+
+</div></div>
+
+
+    
+
+
+<!-- end of mobile_menu -->
+<script src="files/jquery-1.11.2.min.js" type="text/javascript"></script>
+<script src="files/jquery.fancybox.min.js" type="text/javascript"></script>
+<script src="files/owl.carousel.min.js" type="text/javascript"></script>
+<script src="files/mmenu.js" type="text/javascript"></script>
+<script src="files/tooltipster.bundle.min.js" type="text/javascript"></script>
+<script src="files/jquery.mCustomScrollbar.concat.min.js" type="text/javascript"></script>
+<script src="files/script.js" type="text/javascript"></script>
+
+
+
+<script>
+    $(document).ready(function(){
+        $(window).load(function() {
+            if (location.hash && location.hash.indexOf('#tab-') !== 0 ) {
+                var d = $('#header').height()+$('#main .tab_captions').height(),
+                    offsetTop = $(location.hash).offset().top - d;
+                $('html, body').stop().animate({
+                        scrollTop: offsetTop
+                    }, 300,
+                    function(){
+                    });
+            }
+        });
+    });
+</script>
+<script>
+$(document).ready(function(){
+    $('.ym_ALL_MAIL').click(function(){
+       ym(40493970,'reachGoal','ALL_MAIL');
+    });  
+    $('.ym_ALL_PHONE').click(function(){
+	  ym(40493970,'reachGoal','ALL_PHONE');
+    });  
+    $('.ym_ALL_SOCIAL').click(function(){
+	  ym(40493970,'reachGoal','ALL_SOCIAL');
+    });  
+    $('.ym_ALL_VK').click(function(){
+	  ym(40493970,'reachGoal','ALL_VK');
+    });  
+    $('.ym_ALL_DZEN').click(function(){
+	  ym(40493970,'reachGoal','ALL_DZEN');
+    });  
+    $('.ym_ALL_TELEGRAM').click(function(){
+	  ym(40493970,'reachGoal','ALL_TELEGRAM');
+    });  
+    $('.ym_ALL_FORUM').click(function(){
+	  ym(40493970,'reachGoal','ALL_FORUM');
+    });  
+    $('.ym_ALL_MESSENG').click(function(){
+	  ym(40493970,'reachGoal','ALL_MESSENG');
+    });  
+    $('.ym_ALL_DOWNLOAD').click(function(){
+	  ym(40493970,'reachGoal','ALL_DOWNLOAD');
+    });  
+    $('.ym_ALL_KORZINA').click(function(){
+	  ym(40493970,'reachGoal','ALL_PARTNER');
+    });  
+    $('.ym_ALL_VIDEO').click(function(){
+	  ym(40493970,'reachGoal','ALL_VIDEO');
+    }); 
+    $('.ym_ALL_RUTUBE').click(function(){
+	  ym(40493970,'reachGoal','ALL_VIDEO');
+    }); 
+
+    $('.ym_ALL_FORUM').click(function(){
+	  ym(40493970,'reachGoal','ALL_FORUM');
+    });  
+
+  $('.ym_ALL_SPEC').click(function(){
+	  ym(40493970,'reachGoal','ALL_SPEC');
+    });  
+  
+});
+</script>
+
+<style>
+
+    .cookie {
+        line-height: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        font-size: 12px;
+        background: #333;
+        z-index: 10;
+        padding: 16px;
+        color: #fff;
+    }
+
+    @media screen and (max-width:600px){
+        .cookie {
+            max-width: unset;
+            left: 0;
+            padding: 20px 25px;
+            margin: 0 10px;
+            width: 90%;
+        }
+    }
+    .button--cookie {
+        margin-left: 8px;
+        padding: 0;
+        border: 0;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        background: 0 0;
+        cursor: pointer;
+        color:#fff;
+    }
+    .close-btn {
+        display: block;
+        width: 150px;
+        margin: 5px auto 0 auto;
+    }
+</style>
+
+
+
+
+<script>
+
+
+    function setCookie(name, value) {
+        var update_cookie = name + '=' + value + '; path=/; expires=';
+        document.cookie = update_cookie;
+    }
+
+    function getCookie(name) {
+        var get_cookie = document.cookie.match(new RegExp("(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"));
+        if (get_cookie) {
+            get_cookie = decodeURIComponent(get_cookie[1]);
+            get_cookie = get_cookie.split(',');
+        } else {
+            get_cookie = 0;
+        }
+        return get_cookie;
+    }
+
+    $(document).ready(function () {
+
+        var hideCookiesInfo = getCookie('hideCookiesInfo');
+        console.log(hideCookiesInfo);
+        if (hideCookiesInfo[0] !== '1') {
+            $('#cookie-block').show();
+        }
+        $('.cookie .close-link').click(function (event) {
+            event.preventDefault();
+            $('#cookie-block').hide();
+            setCookie('hideCookiesInfo', '1');
+        });
+    });
+
+
+</script>
+
+
+
+
+
+
+  
+
+
+<div id="mobile_menu" class="mm-menu mm-menu--offcanvas mm-menu--position-right-front mm-menu--theme-light" aria-label="Меню" aria-modal="true" role="dialog" inert="true">
+    <!--noindex--><!--/noindex-->
+<div class="mm-navbars mm-navbars--top"><div class="mm-navbar"><a class="mm-btn mm-hidden"></a><a class="mm-navbar__title" tabindex="-1" aria-hidden="true"><span class="">Меню</span></a><a class="mm-btn mm-btn--close mm-navbar__btn" aria-label="Close menu" href="#mm-22"></a></div></div><div class="mm-panels"><div class="mm-panel mm-panel--noanimation mm-panel--opened" id="mm-1"><div class="mm-navbar mm-hidden"><a class="mm-navbar__title" tabindex="-1" aria-hidden="true"><span class="">Меню</span></a></div><ul class="mm-listview"><li class="mm-listitem" id="mm-2" data-mm-child="mm-3"><a class="mm-btn mm-btn--next mm-listitem__btn mm-listitem__text" aria-label="Открыть подменю" href="#mm-3">Компания</a></li><li class="active mm-listitem" id="mm-4" data-mm-child="mm-5"><a class="mm-btn mm-btn--next mm-listitem__btn mm-listitem__text" aria-label="Открыть подменю" href="#mm-5">Продукты</a></li><li class="mm-listitem" id="mm-18" data-mm-child="mm-19"><a class="mm-btn mm-btn--next mm-listitem__btn mm-listitem__text" aria-label="Открыть подменю" href="#mm-19">Разработчикам</a></li><li class="mm-listitem" id="mm-20" data-mm-child="mm-21"><a class="mm-btn mm-btn--next mm-listitem__btn mm-listitem__text" aria-label="Открыть подменю" href="#mm-21">Партнёры</a></li><li class="mm-listitem"><span class="mm-listitem__text"><a href="https://www.basealt.ru/altacademy">Альт Академия</a></span></li><li class="mm-listitem"><span class="mm-listitem__text"><a href="https://www.basealt.ru/support">Поддержка</a></span></li><li class="link first mm-listitem"><a href="https://www.basealt.ru/product-compatibility" class="mm-listitem__text">Совместимость</a></li><li class="link title first mm-listitem">Язык</li>
+<li class="link active mm-listitem">
+<a href="https://www.basealt.ru/" class="mm-listitem__text"><span>Русский</span></a>
+</li>
+<li class="link mm-listitem">
+<a href="https://www.basealt.ru/en/" class="mm-listitem__text"><span>English</span></a>
+</li>
+</ul></div><div class="sub mm-panel mm-panel--noanimation" id="mm-3" data-mm-parent="mm-2" inert="true"><div class="mm-navbar mm-hidden"><a class="mm-btn mm-btn--prev mm-navbar__btn" href="#mm-1" aria-label="Закрыть подменю"></a><a class="mm-navbar__title" tabindex="-1" aria-hidden="true" href="#mm-1"><span class="">Компания</span></a></div><ul class="mm-listview"><li class="mm-listitem"><a href="https://www.basealt.ru/company" class="mm-listitem__text">О компании</a></li><li class="mm-listitem"><a href="https://www.basealt.ru/vacancies" class="mm-listitem__text">Вакансии</a></li><li class="mm-listitem"><a href="https://www.basealt.ru/contacts" class="mm-listitem__text">Контакты</a></li></ul><ul class="mm-listview"><li class="mm-listitem"><a href="https://www.basealt.ru/about/news" class="mm-listitem__text">Новости</a></li><li class="mm-listitem"><a href="https://www.basealt.ru/about/blog" class="mm-listitem__text">Блог</a></li><li class="mm-listitem"><a href="https://www.basealt.ru/mediakit" class="mm-listitem__text">Медиакит</a></li></ul><ul class="mm-listview"><li class="mm-listitem"><a href="https://www.basealt.ru/projects" class="mm-listitem__text">Кейсы</a></li><li class="mm-listitem"><a href="https://www.basealt.ru/events" class="mm-listitem__text">Мероприятия</a></li><li class="mm-listitem"><a href="https://www.basealt.ru/sitemap" class="mm-listitem__text">Карта сайта</a></li></ul></div><div class="sub mm-panel mm-panel--noanimation" id="mm-5" data-mm-parent="mm-4" inert="true"><div class="mm-navbar mm-hidden"><a class="mm-btn mm-btn--prev mm-navbar__btn" href="#mm-1" aria-label="Закрыть подменю"></a><a class="mm-navbar__title" tabindex="-1" aria-hidden="true" href="#mm-1"><span class="">Продукты</span></a></div><ul class="mm-listview"><li class="title mm-listitem">Продукты</li><li class="mm-listitem" id="mm-6" data-mm-child="mm-7"><a href="https://www.basealt.ru/altsp" class="mm-listitem__text">Альт СП</a><a class="mm-btn mm-btn--next mm-listitem__btn" aria-label="Открыть подменю" href="#mm-7"></a></li><li class="active mm-listitem" id="mm-8" data-mm-child="mm-9"><a href="https://www.basealt.ru/alt-server" class="mm-listitem__text">Альт Сервер</a><a class="mm-btn mm-btn--next mm-listitem__btn" aria-label="Открыть подменю" href="#mm-9"></a></li><li class="mm-listitem"><a href="https://www.basealt.ru/alt-domain" class="mm-listitem__text">Альт Домен</a></li><li class="mm-listitem" id="mm-10" data-mm-child="mm-11"><a href="https://www.basealt.ru/alt-virtualization" class="mm-listitem__text">Альт Виртуализация</a><a class="mm-btn mm-btn--next mm-listitem__btn" aria-label="Открыть подменю" href="#mm-11"></a></li><li class="mm-listitem"><a href="https://www.basealt.ru/alt-platform" class="mm-listitem__text">Альт Платформа</a></li><li class="mm-listitem"><a href="https://www.basealt.ru/alt-mobile" class="mm-listitem__text">ALT Mobile</a></li><li class="mm-listitem"><a href="https://www.basealt.ru/container-registry" class="mm-listitem__text">Реестр контейнеров</a></li><li class="mm-listitem"><a href="https://www.basealt.ru/products" class="mm-listitem__text">Все продукты</a></li></ul><ul class="mm-listview"><li class="mm-listitem" id="mm-12" data-mm-child="mm-13"><a href="https://www.basealt.ru/alt-workstation" class="mm-listitem__text">Альт Рабочая станция</a><a class="mm-btn mm-btn--next mm-listitem__btn" aria-label="Открыть подменю" href="#mm-13"></a></li><li class="mm-listitem"><a href="https://www.basealt.ru/alt-workstation-k" class="mm-listitem__text">Альт Рабочая станция К</a></li><li class="mm-listitem" id="mm-14" data-mm-child="mm-15"><a href="https://www.basealt.ru/alt-education" class="mm-listitem__text">Альт Образование</a><a class="mm-btn mm-btn--next mm-listitem__btn" aria-label="Открыть подменю" href="#mm-15"></a></li><li class="mm-listitem" id="mm-16" data-mm-child="mm-17"><a href="https://www.basealt.ru/simplylinux" class="mm-listitem__text">Simply Linux</a><a class="mm-btn mm-btn--next mm-listitem__btn" aria-label="Открыть подменю" href="#mm-17"></a></li></ul><ul class="mm-listview"><li class="title mm-listitem">Дополнительная информация</li><li class="mm-listitem"><a href="https://www.basealt.ru/updates" class="mm-listitem__text">Обновления</a></li><li class="mm-listitem"><a href="https://www.basealt.ru/documentation" class="mm-listitem__text">Документация</a></li><li class="mm-listitem"><a href="https://www.basealt.ru/product-compatibility" class="mm-listitem__text">Информация о совместимости</a></li><li class="mm-listitem"><a href="https://www.basealt.ru/fileadmin/docs/License_policy.pdf" target="_blank" class="mm-listitem__text">Лицензионная политика</a></li><li class="mm-listitem"><a href="https://www.basealt.ru/product-feedback" class="mm-listitem__text">Оставить отзыв о продукте</a></li></ul></div><div class="mm-panel mm-panel--noanimation" id="mm-7" data-mm-parent="mm-6" inert="true"><div class="mm-navbar mm-hidden"><a class="mm-btn mm-btn--prev mm-navbar__btn" href="#mm-5" aria-label="Закрыть подменю"></a><a class="mm-navbar__title" tabindex="-1" aria-hidden="true" href="#mm-5"><span class="">Альт СП</span></a></div><ul class="mm-listview"><li class="mm-listitem"><a href="https://www.basealt.ru/altsp/download" class="mm-listitem__text">Запросить</a></li><li class="mm-listitem"><a href="https://www.basealt.ru/altsp/buy" class="mm-listitem__text">Как купить</a></li></ul></div><div class="mm-panel mm-panel--noanimation" id="mm-9" data-mm-parent="mm-8" inert="true"><div class="mm-navbar mm-hidden"><a class="mm-btn mm-btn--prev mm-navbar__btn" href="#mm-5" aria-label="Закрыть подменю"></a><a class="mm-navbar__title" tabindex="-1" aria-hidden="true" href="#mm-5"><span class="">Альт Сервер</span></a></div><ul class="mm-listview"><li class="mm-listitem"><a href="https://www.basealt.ru/alt-server/download" class="mm-listitem__text">Скачать</a></li></ul></div><div class="mm-panel mm-panel--noanimation" id="mm-11" data-mm-parent="mm-10" inert="true"><div class="mm-navbar mm-hidden"><a class="mm-btn mm-btn--prev mm-navbar__btn" href="#mm-5" aria-label="Закрыть подменю"></a><a class="mm-navbar__title" tabindex="-1" aria-hidden="true" href="#mm-5"><span class="">Альт Виртуализация</span></a></div><ul class="mm-listview"><li class="mm-listitem"><a href="https://www.basealt.ru/alt-virtualization/download" class="mm-listitem__text">Скачать ОС «Альт Виртуализация»</a></li></ul></div><div class="mm-panel mm-panel--noanimation" id="mm-13" data-mm-parent="mm-12" inert="true"><div class="mm-navbar mm-hidden"><a class="mm-btn mm-btn--prev mm-navbar__btn" href="#mm-5" aria-label="Закрыть подменю"></a><a class="mm-navbar__title" tabindex="-1" aria-hidden="true" href="#mm-5"><span class="">Альт Рабочая станция</span></a></div><ul class="mm-listview"><li class="mm-listitem"><a href="https://www.basealt.ru/alt-workstation/download" class="mm-listitem__text">Скачать</a></li></ul></div><div class="mm-panel mm-panel--noanimation" id="mm-15" data-mm-parent="mm-14" inert="true"><div class="mm-navbar mm-hidden"><a class="mm-btn mm-btn--prev mm-navbar__btn" href="#mm-5" aria-label="Закрыть подменю"></a><a class="mm-navbar__title" tabindex="-1" aria-hidden="true" href="#mm-5"><span class="">Альт Образование</span></a></div><ul class="mm-listview"><li class="mm-listitem"><a href="https://www.basealt.ru/alt-education/download" class="mm-listitem__text">Скачать Альт Образование</a></li></ul></div><div class="mm-panel mm-panel--noanimation" id="mm-17" data-mm-parent="mm-16" inert="true"><div class="mm-navbar mm-hidden"><a class="mm-btn mm-btn--prev mm-navbar__btn" href="#mm-5" aria-label="Закрыть подменю"></a><a class="mm-navbar__title" tabindex="-1" aria-hidden="true" href="#mm-5"><span class="">Simply Linux</span></a></div><ul class="mm-listview"><li class="mm-listitem"><a href="https://www.basealt.ru/simplylinux/download" class="mm-listitem__text">Скачать</a></li></ul></div><div class="sub mm-panel mm-panel--noanimation" id="mm-19" data-mm-parent="mm-18" inert="true"><div class="mm-navbar mm-hidden"><a class="mm-btn mm-btn--prev mm-navbar__btn" href="#mm-1" aria-label="Закрыть подменю"></a><a class="mm-navbar__title" tabindex="-1" aria-hidden="true" href="#mm-1"><span class="">Разработчикам</span></a></div><ul class="mm-listview"><li class="mm-listitem"><a href="https://www.basealt.ru/repository" class="mm-listitem__text">Проект «Сизиф»</a></li><li class="mm-listitem"><a href="https://www.basealt.ru/alt-linux" class="mm-listitem__text">ALT Linux Team</a></li></ul><ul class="mm-listview"><li class="mm-listitem"><a href="https://www.basealt.ru/starterkits" class="mm-listitem__text">Стартовые наборы</a></li><li class="mm-listitem"><a href="https://www.basealt.ru/platform" class="mm-listitem__text">Программная платформа</a></li></ul></div><div class="sub mm-panel mm-panel--noanimation" id="mm-21" data-mm-parent="mm-20" inert="true"><div class="mm-navbar mm-hidden"><a class="mm-btn mm-btn--prev mm-navbar__btn" href="#mm-1" aria-label="Закрыть подменю"></a><a class="mm-navbar__title" tabindex="-1" aria-hidden="true" href="#mm-1"><span class="">Партнёры</span></a></div><ul class="mm-listview"><li class="mm-listitem"><a href="https://www.basealt.ru/partnerskaja-programma" class="mm-listitem__text">Стать партнёром</a></li><li class="mm-listitem"><a href="https://www.basealt.ru/partners" class="mm-listitem__text">Все партнёры</a></li><li class="mm-listitem"><a href="https://www.basealt.ru/product-compatibility" class="mm-listitem__text">Совместимость</a></li></ul><ul class="mm-listview"><li class="mm-listitem"><a href="https://www.basealt.ru/buy" class="mm-listitem__text">Купить ОС «Альт»</a></li><li class="mm-listitem"><a href="https://my.basealt.space/" target="_blank" class="mm-listitem__text">Личный кабинет</a></li></ul></div></div><div class="mm-navbars mm-navbars--bottom"><div class="mm-navbar"><form class="search_block" action="/search" method="get">
+                    <input type="hidden" name="searchid" value="2464084">
+                    <input type="hidden" name="web" value="0">
+                    <div class="search_input">
+                        <input type="text" name="text" placeholder="Поиск" id="form_search_text">
+                        <a href="#" class="close"></a>
+                    </div>
+                    <input class="search_btn" type="submit">
+                </form></div><div class="mm-navbar"><span class=""></span></div></div></div><a class="mm-wrapper__blocker mm-blocker mm-slideout" id="mm-0" aria-label="Close menu" inert="true" href="#mm-22"></a></body></html>
